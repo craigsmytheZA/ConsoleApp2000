@@ -76,6 +76,7 @@ internal class Program
         }
         catch (Exception ex)
         {
+            Console.WriteLine("Application Exception: " + ex.Message);
             //throw ErrorHandler.LogWrite(si, new XFException(si, ex));
         }
         Console.WriteLine("Operation Complete.");
